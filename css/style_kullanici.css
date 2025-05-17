@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.not-found-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.expired {
+    color: red;
+    font-weight: bold;
+}
+
+.today {
+    color: blue;
+    font-weight: bold;
+}
+
+.upcoming {
+    color: green;
+    font-weight: bold;
+}
+
+.delete-button {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.delete-button:hover {
+    text-decoration: underline;
+}
+
+.logout img {
+    vertical-align: middle;
+}
+
+
+.logout {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout:hover {
+    opacity: 0.8;
+}
+
+.expired {
+    color: red;
+    font-weight: bold;
+}
+
+.upcoming {
+    color: green;
+    font-weight: bold;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.delete-button:hover {
+    background-color: #ff1a1a;
+}
+
+.delete-button.disabled {
+    background-color: #ccc;
+    color: #666;
+    pointer-events: none;
+    cursor: not-allowed;
+}
